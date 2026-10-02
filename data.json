@@ -1,10 +1,12 @@
 {
+  "actions": [],
   "alarms": [],
+  "campaigns": [],
   "client": "la-bella-md",
   "currency": "USD",
   "daily": [],
   "display_name": "La Bella MD (Myrtle Beach)",
-  "generated_at": "2026-09-30T02:48:30.273649-07:00",
+  "generated_at": "2026-10-01T22:48:20.716136-07:00",
   "headline": [
     {
       "format": "int",
@@ -60,7 +62,7 @@
   ],
   "insight": null,
   "insights": {
-    "creative": "From the campaign tags on the leads, the Botox unit-price offer brought the most leads this week, with the HydraFacial offer second. Once the ad account is connected we can see which videos or images are doing the work and test a before-and-after version of the top one.",
+    "creative": "No ad copy can be shown for this location yet because the Meta ad account is not connected to the report, so the top ads, hooks and formats are missing here. From the campaign tags on the CRM leads, the Botox unit-price offer brought the most leads this week and the HydraFacial offer was second. Once the account is connected we will name the top ads and quote their hooks. The first test we recommend is a before-and-after image of the Botox offer, since that offer is the one pulling leads.",
     "doing": "36 new leads reached the CRM this week, up from 21 the week before. Ad spend and cost per lead cannot be shown yet because the Meta ad account for this location is not connected to the report.",
     "look_into": "About a third of this week's leads arrived tagged only as social media with no campaign attached, so we cannot tell which ad or offer produced them. We recommend checking the lead form and tagging setup so every lead carries its campaign.",
     "next": "Next we recommend sharing access to the Myrtle Beach ad account so spend, cost per lead and the top ads appear here. Until then the lead count is the only number we can track for this location."
@@ -76,6 +78,27 @@
     "cpl": 0.0,
     "crm_leads": 36,
     "crm_leads_raw": 36,
+    "ctr": null,
+    "google_conversions": 0,
+    "google_spend": 0,
+    "impressions": 0,
+    "landing_page_views": 0,
+    "link_clicks": 0,
+    "messages": 0,
+    "meta_spend": 0,
+    "pixel_leads": 0,
+    "reach": 0,
+    "spend": 0,
+    "tiktok_leads": 0,
+    "tiktok_spend": 0
+  },
+  "prior_metrics": {
+    "appointments_booked": 0,
+    "appointments_showed": 0,
+    "cost_per_message": null,
+    "cpl": 0.0,
+    "crm_leads": 21,
+    "crm_leads_raw": 21,
     "ctr": null,
     "google_conversions": 0,
     "google_spend": 0,
