@@ -59,6 +59,12 @@
     }
   ],
   "insight": null,
+  "insights": {
+    "creative": "From the campaign tags on the leads, the Botox unit-price offer brought the most leads this week, with the HydraFacial offer second. Once the ad account is connected we can see which videos or images are doing the work and test a before-and-after version of the top one.",
+    "doing": "36 new leads reached the CRM this week, up from 21 the week before. Ad spend and cost per lead cannot be shown yet because the Meta ad account for this location is not connected to the report.",
+    "look_into": "About a third of this week's leads arrived tagged only as social media with no campaign attached, so we cannot tell which ad or offer produced them. We recommend checking the lead form and tagging setup so every lead carries its campaign.",
+    "next": "Next we recommend sharing access to the Myrtle Beach ad account so spend, cost per lead and the top ads appear here. Until then the lead count is the only number we can track for this location."
+  },
   "labels": {
     "crm_leads": "Leads in CRM (people)",
     "crm_leads_raw": "Lead submissions"
