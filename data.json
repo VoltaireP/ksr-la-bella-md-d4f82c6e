@@ -6,41 +6,41 @@
   "currency": "USD",
   "daily": [],
   "display_name": "La Bella MD (Myrtle Beach)",
-  "generated_at": "2026-10-08T05:15:05.889034-07:00",
+  "generated_at": "2026-10-15T05:15:06.756376-07:00",
   "headline": [
     {
       "format": "int",
       "key": "crm_leads",
       "label": "Leads in CRM (people)",
-      "prior": 27,
+      "prior": 29,
       "trend": [
-        21,
         29,
         41,
         34,
         21,
         36,
         27,
-        29
+        29,
+        16
       ],
-      "value": 29
+      "value": 16
     },
     {
       "format": "int",
       "key": "crm_leads_raw",
       "label": "Lead submissions",
-      "prior": 27,
+      "prior": 29,
       "trend": [
-        21,
         29,
         41,
         34,
         21,
         36,
         27,
-        29
+        29,
+        16
       ],
-      "value": 29
+      "value": 16
     },
     {
       "format": "money",
@@ -62,16 +62,41 @@
   ],
   "insight": null,
   "insights": {
-    "creative": "From the campaign tags on the leads, the Botox unit-price offer and the HydraFacial offer are the two sources producing leads, with Botox ahead this week after a slower week before. The ad copy and images cannot be seen until the ad account is connected. Once it is, we recommend testing a short treatment-room video for the Botox offer, since that offer is bringing in the most leads.",
-    "doing": "29 new leads reached the CRM this week, up from 27 the week before. Ad spend and cost per lead cannot be shown yet because the Meta ad account for this location is not connected to the report.",
-    "look_into": "No new leads were recorded on Oct 2, while every other day of the week brought in 3 to 6. Without ad data we cannot tell whether the ads stopped that day, so it is worth a quick check that the campaigns ran all week.",
-    "next": "We recommend sharing access to the Myrtle Beach ad account so spend, cost per lead and the top ads appear here. Until then the lead count is the only number we can track for this location."
+    "creative": "From the campaign tags on the leads, the Botox unit-price offer and the HydraFacial offer both produced leads again this week, with Botox still ahead. The ad copy and images cannot be seen until the ad account is connected. Once it is, we recommend testing a short treatment-room video for the Botox offer in which the injector walks through what a first visit looks like, since that offer keeps bringing in the most leads.",
+    "doing": "16 new leads reached the CRM this week, down from 29 the week before and the lowest weekly count of the eight shown. Ad spend and cost per lead cannot be shown yet because the Meta ad account for this location is not connected to the report.",
+    "look_into": "Leads fell by almost half, and none were recorded on Oct 12 while the other days brought 1 to 5. Without ad data we cannot tell whether spend, delivery or the offer changed, so it is worth checking that both campaigns ran at their usual budget all week.",
+    "next": "We recommend sharing access to the Myrtle Beach ad account this week, since a drop this size cannot be explained without spend and delivery numbers. Until then the lead count is the only number we can track for this location."
   },
   "labels": {
     "crm_leads": "Leads in CRM (people)",
     "crm_leads_raw": "Lead submissions"
   },
   "metrics": {
+    "appointments_booked": 0,
+    "appointments_showed": 0,
+    "cost_per_message": null,
+    "cpl": 0.0,
+    "crm_leads": 16,
+    "crm_leads_raw": 16,
+    "ctr": null,
+    "google_conversions": 0,
+    "google_spend": 0,
+    "impressions": 0,
+    "landing_page_views": 0,
+    "link_clicks": 0,
+    "messages": 0,
+    "meta_spend": 0,
+    "odoo_leads": 0,
+    "odoo_order_value": 0,
+    "odoo_orders": 0,
+    "odoo_won": 0,
+    "pixel_leads": 0,
+    "reach": 0,
+    "spend": 0,
+    "tiktok_leads": 0,
+    "tiktok_spend": 0
+  },
+  "prior_metrics": {
     "appointments_booked": 0,
     "appointments_showed": 0,
     "cost_per_message": null,
@@ -96,31 +121,7 @@
     "tiktok_leads": 0,
     "tiktok_spend": 0
   },
-  "prior_metrics": {
-    "appointments_booked": 0,
-    "appointments_showed": 0,
-    "cost_per_message": null,
-    "cpl": 0.0,
-    "crm_leads": 27,
-    "crm_leads_raw": 27,
-    "ctr": null,
-    "google_conversions": 0,
-    "google_spend": 0,
-    "impressions": 0,
-    "landing_page_views": 0,
-    "link_clicks": 0,
-    "messages": 0,
-    "meta_spend": 0,
-    "odoo_leads": 0,
-    "odoo_order_value": 0,
-    "odoo_orders": 0,
-    "odoo_won": 0,
-    "pixel_leads": 0,
-    "reach": 0,
-    "spend": 0,
-    "tiktok_leads": 0,
-    "tiktok_spend": 0
-  },
+  "rolling": [],
   "segment_label": "segment",
   "segments": [],
   "top_ads": [],
@@ -163,7 +164,7 @@
         "ok": true
       },
       {
-        "detail": "raw 29, counted 29",
+        "detail": "raw 16, counted 16",
         "name": "crm_leads",
         "ok": true
       },
@@ -198,8 +199,13 @@
         "ok": true
       },
       {
-        "detail": "raw rows by date: 2026-10-01=4, 2026-10-03=5, 2026-10-04=6, 2026-10-05=3, 2026-10-06=5, 2026-10-07=6; report has no daily audit rows",
+        "detail": "raw rows by date: 2026-10-08=1, 2026-10-09=5, 2026-10-10=3, 2026-10-11=2, 2026-10-13=4, 2026-10-14=1; report has no daily audit rows",
         "name": "raw_rows_covered",
+        "ok": true
+      },
+      {
+        "detail": "no rolling counts",
+        "name": "rolling",
         "ok": true
       },
       {
@@ -208,7 +214,7 @@
         "ok": true
       },
       {
-        "detail": "meta pixel leads 0.00, CRM leads 29",
+        "detail": "meta pixel leads 0.00, CRM leads 16",
         "name": "tracking_drift",
         "ok": true
       }
@@ -216,8 +222,8 @@
     "status": "pass"
   },
   "window": {
-    "end": "2026-10-07",
-    "label": "Oct 1 to Oct 7",
-    "start": "2026-10-01"
+    "end": "2026-10-14",
+    "label": "Oct 8 to Oct 14",
+    "start": "2026-10-08"
   }
 }
