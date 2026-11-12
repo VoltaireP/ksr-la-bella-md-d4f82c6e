@@ -6,41 +6,41 @@
   "currency": "USD",
   "daily": [],
   "display_name": "La Bella MD (Myrtle Beach)",
-  "generated_at": "2026-11-05T05:15:06.938763-08:00",
+  "generated_at": "2026-11-12T05:15:07.639163-08:00",
   "headline": [
     {
       "format": "int",
       "key": "crm_leads",
       "label": "Leads in CRM (people)",
-      "prior": 32,
+      "prior": 35,
       "trend": [
-        21,
         36,
         27,
         29,
-        16,
+        17,
         30,
         32,
-        35
+        35,
+        34
       ],
-      "value": 35
+      "value": 34
     },
     {
       "format": "int",
       "key": "crm_leads_raw",
       "label": "Lead submissions",
-      "prior": 32,
+      "prior": 35,
       "trend": [
-        21,
         36,
         27,
         29,
-        16,
+        17,
         30,
         32,
-        35
+        35,
+        34
       ],
-      "value": 35
+      "value": 34
     },
     {
       "format": "money",
@@ -62,9 +62,9 @@
   ],
   "insight": null,
   "insights": {
-    "creative": "From the campaign tags on the leads, the Botox unit-price offer and the HydraFacial offer both brought in steady leads this week, with Botox slightly ahead. The ad copy and images cannot be seen until the ad account is connected. Once it is, worth testing a short treatment-room video for the Botox offer that walks through what a first visit looks like, since that offer keeps bringing in the most leads.",
-    "doing": "35 new leads reached the CRM this week, up from 32 the week before and the second highest of the eight weeks shown. Ad spend and cost per lead still cannot be shown because the Meta ad account for this location is not connected to the report.",
-    "look_into": "Leads came in every day of the week. The Botox unit-price offer brought slightly more leads than the HydraFacial offer, but some leads carry a social media source with no campaign tag, so the split is approximate.",
+    "creative": "From the campaign tags on the leads, the HydraFacial offer led this week and the Botox unit-price offer came second. The ad copy and images cannot be seen until the ad account is connected. Once it is, worth testing a HydraFacial ad that shows the treatment start to finish, since that offer brought the most leads this week.",
+    "doing": "34 new leads reached the CRM this week, about level with 35 the week before and the third highest of the eight weeks shown. Ad spend and cost per lead still cannot be shown because the Meta ad account for this location is not connected to the report.",
+    "look_into": "Leads came in every day of the week. The HydraFacial offer brought more leads than the Botox unit-price offer this week, the reverse of the week before. A few leads carry a social media source with no campaign tag, so the split is approximate.",
     "next": "We recommend sharing access to the Myrtle Beach ad account this week. It is still the one step that would put spend and cost per lead next to the lead count."
   },
   "labels": {
@@ -74,10 +74,11 @@
   "metrics": {
     "appointments_booked": 0,
     "appointments_showed": 0,
+    "cost_per_booking": null,
     "cost_per_message": null,
     "cpl": 0.0,
-    "crm_leads": 35,
-    "crm_leads_raw": 35,
+    "crm_leads": 34,
+    "crm_leads_raw": 34,
     "ctr": null,
     "google_conversions": 0,
     "google_spend": 0,
@@ -101,10 +102,11 @@
   "prior_metrics": {
     "appointments_booked": 0,
     "appointments_showed": 0,
+    "cost_per_booking": null,
     "cost_per_message": null,
     "cpl": 0.0,
-    "crm_leads": 32,
-    "crm_leads_raw": 32,
+    "crm_leads": 35,
+    "crm_leads_raw": 35,
     "ctr": null,
     "google_conversions": 0,
     "google_spend": 0,
@@ -144,6 +146,7 @@
     "pixel_leads",
     "messages",
     "cost_per_message",
+    "cost_per_booking",
     "reach",
     "impressions",
     "link_clicks",
@@ -168,7 +171,7 @@
         "ok": true
       },
       {
-        "detail": "raw 35, counted 35",
+        "detail": "raw 34, counted 34",
         "name": "crm_leads",
         "ok": true
       },
@@ -203,7 +206,7 @@
         "ok": true
       },
       {
-        "detail": "raw rows by date: 2026-10-29=5, 2026-10-30=3, 2026-10-31=3, 2026-11-01=5, 2026-11-02=6, 2026-11-03=6, 2026-11-04=7; report has no daily audit rows",
+        "detail": "raw rows by date: 2026-11-05=3, 2026-11-06=4, 2026-11-07=7, 2026-11-08=7, 2026-11-09=4, 2026-11-10=5, 2026-11-11=4; report has no daily audit rows",
         "name": "raw_rows_covered",
         "ok": true
       },
@@ -218,7 +221,7 @@
         "ok": true
       },
       {
-        "detail": "meta pixel leads 0.00, CRM leads 35",
+        "detail": "meta pixel leads 0.00, CRM leads 34",
         "name": "tracking_drift",
         "ok": true
       }
@@ -226,8 +229,8 @@
     "status": "pass"
   },
   "window": {
-    "end": "2026-11-04",
-    "label": "Oct 29 to Nov 4",
-    "start": "2026-10-29"
+    "end": "2026-11-11",
+    "label": "Nov 5 to Nov 11",
+    "start": "2026-11-05"
   }
 }
